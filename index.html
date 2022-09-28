@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="header">
+            <a href="#"><h1>BiyaHeroes</h1></a>
+            <p>Log into your account.</p>
+        </div>
+
+        <form action="" class="form">
+
+            <div class="form-item">
+                <label for="user-role">User Role
+                    <select name="user-role" id="user-role">
+                        <option value="commuter">Commuter</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </label>                
+            </div>
+
+            <div class="form-item">
+                <label for="email">Email
+                    <input type="email" id="email" placeholder="Email" required>
+                </label>
+                <small></small>
+            </div>
+            <div class="form-item">
+                <label for="password">Password
+                    <input type="password" id="password" placeholder="Password" required>
+                </label>
+                <small></small>
+            </div>
+
+            <div class="btn">
+                <button type="submit">Login</button>
+            </div>
+
+        </form>
+
+        <div class="footer">
+            <p>Don't have an account? <a href="#">Signup</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

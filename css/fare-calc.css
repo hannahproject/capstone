@@ -1,0 +1,25 @@
+body {
+    margin: 0 2em;
+    /* background-color: pink; */
+}
+
+header {
+    padding: 1.25em 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand > h2 {
+    margin-bottom: 0;
+}
+
+.map-placeholder {
+    background-color: gray;
+    width: 100%;
+}
+
+.base-fare {
+    font-weight: 600;
+}

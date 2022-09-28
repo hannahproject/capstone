@@ -1,0 +1,126 @@
+body {
+    margin: 0 2em;
+}
+
+header {
+    padding: 1.25em 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav .logout-btn {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logout-btn svg{
+    width: 18px;
+} */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    position: relative;
+    margin-bottom: 2em;
+}
+
+.card-one {
+    grid-column:1/3;
+    margin-bottom: 2em;
+}
+
+.wrapper .card {
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    padding: 1em;
+    border-radius: 12px;
+}
+
+.card .description {
+    margin-left:1.25em;
+}
+
+.history {
+    position: absolute;
+    right: 0;
+    top: 32%;
+}
+
+/*TYPOGRAPHY*/
+
+nav > a > h2 {
+    font-size: calc(1.325rem + 0.9vw);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* .logout-btn p {
+    margin-right: .5em;
+} */
+
+.container .welcome-greeting {
+    font-family: 'Montserrat', sans-serif;
+    padding: 1em 0;
+}
+
+.description h3 {
+    margin-bottom: .5em;
+}
+
+@media (max-width:567px) {
+
+    body {
+        margin: 0 1.25em;
+    }
+    
+    .wrapper {
+        display: block;
+        margin-bottom: 0;
+    }
+
+    .welcome-greeting {
+        font-size: 1.25rem;
+    }
+
+    .icon img{
+        width: 100px;
+    }
+
+    .wrapper .card {
+        margin-bottom: 2em;
+        max-height: 150px;
+        padding: .75em;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .card .description {
+        max-height: 100px;
+        max-width: 250px;
+        overflow: hidden;
+        /* white-space: nowrap; */
+        text-overflow: ellipsis;
+        margin-left:1em;
+    }
+
+    .description h3 {
+        font-size: 1rem;
+    }
+
+    .description p {
+        font-size: .75rem;
+    }
+
+    .history {
+        position: absolute;
+        right: 0;
+        top: 17.5%;
+    }
+}

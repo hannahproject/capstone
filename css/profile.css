@@ -1,0 +1,44 @@
+body {
+    margin: 0 2em;
+    /* background-color: pink; */
+}
+
+header {
+    padding: 1.25em 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand > h2 {
+    margin-bottom: 0;
+}
+
+#profile-photo-placement {
+    border-radius: 50%;
+    border: 1px solid grey;
+    width:130px;
+    height:130px;
+    background-color: grey;
+    overflow: hidden;
+}
+
+#profile-photo {
+    display: none;
+}
+
+.to-edit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.to-edit > small {
+    cursor: pointer;
+}
+
+@media (max-width:576px) {
+    .right {
+        margin-top: 1.5em;
+    }
+}

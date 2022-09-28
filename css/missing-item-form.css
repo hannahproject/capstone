@@ -1,0 +1,15 @@
+body {
+    margin: 0 2em;
+}
+
+header {
+    padding: 1.25em 0;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand > h2 {
+    margin-bottom: 0;
+}

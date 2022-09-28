@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bebas Neue';
+}
+
+p, label {
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
