@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: pink; */
+    background-image:var(--gradient-bg);
 }
 
 /*DIVS*/
@@ -17,8 +17,7 @@ body {
 .container {
     width: fit-content;
     padding: 2em;
-    /* background-color: aquamarine; */
-    border: 1px dotted gray;
+    background-color: var(--primary-bg-color);
     border-radius: 12px;
 }
 
@@ -54,6 +53,13 @@ body {
 .btn button {
     font-size: 1rem;
     padding: .25em 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 500;
+    color: var(--primary-bg-color);
+    background-color: var(--tertiary-color-orange);
+    border-radius: 6px;
+    border:0;
+    cursor:pointer;
 }
 
 /*TYPOGRAPHY*/
@@ -62,6 +68,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     margin-bottom: .5em;
+    color:var(--secondary-color-blue);
 }
 
 /*IMAGES*/
@@ -69,6 +76,11 @@ body {
     width: 18px;
     position: absolute;
     left:0;
+    cursor: pointer;
+}
+
+.header img:hover {
+    filter: invert(41%) sepia(99%) saturate(2422%) hue-rotate(1deg) brightness(100%) contrast(107%);
 }
 
 @media (max-width:576px) {
