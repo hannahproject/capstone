@@ -3,15 +3,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: var(--gradient-bg);
 }
 
 /*DIVS*/
 
 .container {
-    border: 1px dotted gray;
     width: fit-content;
     padding: 2em;
     border-radius: 12px;
+    background-color: var(--primary-bg-color);
 }
 
 .header {
@@ -50,6 +51,13 @@ body {
 .btn button {
     font-size: 1rem;
     padding: .25em 1.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 500;
+    color: var(--primary-bg-color);
+    background-color: var(--tertiary-color-orange);
+    border-radius: 6px;
+    border:0;
+    cursor:pointer;
 }
 
 /*TYPOGRAPHY*/
@@ -58,8 +66,16 @@ body {
     margin-bottom: .125em;
 }
 
+.header a{
+    color: var(--secondary-color-blue);
+}
+
 .footer p{
     font-size: .80rem;
+}
+
+.footer a {
+    color:var(--tertiary-color-orange);
 }
 
 
