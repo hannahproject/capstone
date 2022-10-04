@@ -13,6 +13,28 @@ header {
 
 .navbar-brand > h2 {
     margin-bottom: 0;
+    color: var(--secondary-color-blue);
+}
+
+.logout {
+    cursor: pointer;
+}
+
+h1 {
+    color: var(--secondary-color-blue);
+}
+
+span {
+    color: var(--secondary-color-darkblue);
+}
+
+p {
+    color: var(--text-color-black);
+}
+
+.btn-primary {
+    background-color: var(--tertiary-color-orange);
+    border-color: var(--tertiary-color-orange);
 }
 
 .map-placeholder {
