@@ -12,4 +12,23 @@ header {
 
 .navbar-brand > h2 {
     margin-bottom: 0;
+    color: var(--secondary-color-blue);
+}
+
+.logout {
+    cursor: pointer;
+}
+
+h1, h4 {
+    color: var(--secondary-color-darkblue);
+}
+
+label, p {
+    color: var(--text-color-black);
+}
+
+.btn-primary {
+    background-color: var(--tertiary-color-orange);
+    border-color: var(--tertiary-color-orange);
+    font-family: 'Montserrat', sans-serif;
 }
