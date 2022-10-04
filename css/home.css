@@ -1,5 +1,6 @@
 body {
     margin: 0 2em;
+    background-color: var(--primary-bg-color);
 }
 
 header {
@@ -11,16 +12,6 @@ header nav {
     justify-content: space-between;
     align-items: center;
 }
-
-/* nav .logout-btn {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-.logout-btn svg{
-    width: 18px;
-} */
 
 .wrapper {
     display: grid;
@@ -38,7 +29,8 @@ header nav {
 .wrapper .card {
     display: flex;
     align-items: center;
-    background-color: #eee;
+    background-color: var(--primary-bg-color);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     padding: 1em;
     border-radius: 12px;
 }
@@ -53,25 +45,55 @@ header nav {
     top: 32%;
 }
 
+.icon img{
+    width: 100px;
+    filter: invert(61%) sepia(90%) saturate(5591%) hue-rotate(3deg) brightness(104%) contrast(103%);
+}
+
 /*TYPOGRAPHY*/
 
 nav > a > h2 {
     font-size: calc(1.325rem + 0.9vw);
     font-weight: 500;
     line-height: 1.2;
+    color: var(--secondary-color-blue);
 }
 
-/* .logout-btn p {
-    margin-right: .5em;
-} */
+.logout-btn p {
+    cursor: pointer;
+    color: var(--shadow-color-two);
+}
+
+.logout-btn p:hover {
+    color: var(--text-color-black);
+}
 
 .container .welcome-greeting {
     font-family: 'Montserrat', sans-serif;
     padding: 1em 0;
+    color: var(--secondary-color-darkblue);
+}
+
+.welcome-greeting span {
+    color: var(--tertiary-color-orange);
 }
 
 .description h3 {
     margin-bottom: .5em;
+    color: var(--secondary-color-darkblue);
+}
+
+.description p {
+    color: var(--text-color-black);
+}
+
+.history a {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--shadow-color-one);
+}
+
+.history a:hover {
+    color: var(--secondary-color-blue);
 }
 
 @media (max-width:567px) {
