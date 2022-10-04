@@ -5,6 +5,9 @@
     --secondary-color-blue: #005792;
     --secondary-color-darkblue: #13334C;
     --tertiary-color-orange: #FD5F00;
+    --text-color-black: #1B1B1A;
+    --shadow-color-one: #4B4B48;
+    --shadow-color-two: #868682;
     --gradient-bg: linear-gradient(to bottom right, #005792, #13334C);
 }
 
@@ -20,6 +23,7 @@ h4,
 h5,
 h6 {
     font-family: 'Bebas Neue';
+    font-weight: 300;
 }
 
 p, label {
